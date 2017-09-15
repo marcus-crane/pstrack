@@ -3,7 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 
 def importConfig():
-  with open('config.json') as config:
+  with open('apps.json') as config:
     return json.load(config)
 
 def fetchApp(storeID):
@@ -39,7 +39,7 @@ def updateAlert(name, version):
   print(f'{name} has just been updated to v{version}!')
 
 def writeUpdates(apps):
-  with open('config.json', 'w') as config:
+  with open('apps.json', 'w') as config:
     config.write(json.dumps(apps, sort_keys=True, indent=2, separators=(',', ': ')))
 
   print('Changes saved. See ya next time!')
