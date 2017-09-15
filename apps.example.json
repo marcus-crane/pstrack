@@ -1,0 +1,14 @@
+{
+  "Dragon Quest VIII": {
+    "currentVersion": "1.1.4",
+    "storeID": "com.square_enix.android_googleplay.dq8"
+  },
+  "Final Fantasy Tactics: WotL": {
+    "currentVersion": "1.1.0",
+    "storeID": "com.square_enix.android_googleplay.FFT_en2"
+  },
+  "Postknight": {
+    "currentVersion": "2.1.10",
+    "storeID": "com.kurechii.postknight"
+  }
+}
