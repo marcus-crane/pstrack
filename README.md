@@ -1,4 +1,4 @@
-# PSTrack
+# pstrack
 
 ## hwwwhat is this?
 
